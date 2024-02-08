@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "167F4196-48FA-4F7D-BF91-F9A0AB828684"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2895F03B-5449-4785-B360-DF1505BEA9BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeBook/ApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchRecipeData(id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2895F03B-5449-4785-B360-DF1505BEA9BC - 4d2cab303f1e2e8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeBook.ApiService.fetchRecipeData(id: Swift.String, completion: (Swift.Result&lt;RecipeBook.Recipe, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gauravpatil/Desktop/iOS/RecipeBook/RecipeBook/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "2895F03B-5449-4785-B360-DF1505BEA9BC - 4d2cab303f1e2e8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeBook.ApiService.fetchRecipeData(id: Swift.String, completion: (Swift.Result&lt;RecipeBook.Recipe, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gauravpatil/Desktop/iOS/RecipeBook/RecipeBook/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "2895F03B-5449-4785-B360-DF1505BEA9BC - 4d2cab303f1e2e8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeBook.ApiService.fetchRecipeData(id: Swift.String, completion: (Swift.Result&lt;RecipeBook.Recipe, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gauravpatil/Desktop/iOS/RecipeBook/RecipeBook/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "2895F03B-5449-4785-B360-DF1505BEA9BC - 4d2cab303f1e2e8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeBook.ApiService.fetchRecipeData(id: Swift.String, completion: (Swift.Result&lt;RecipeBook.Recipe, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gauravpatil/Desktop/iOS/RecipeBook/RecipeBook/ApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "464">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "297E80FE-0CE5-467D-84DA-ECC26E70F7A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeBook/View/RecipeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "297E80FE-0CE5-467D-84DA-ECC26E70F7A6 - f48b0c99bf1eeebe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeBook.RecipeView.body.getter : some"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gauravpatil/Desktop/iOS/RecipeBook/RecipeBook/View/RecipeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "297E80FE-0CE5-467D-84DA-ECC26E70F7A6 - 13eace0f15c2f71e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;&gt;, SwiftUI.Spacer, SwiftUI.AsyncImage&lt;SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.ProgressView&lt;SwiftUI.EmptyView, SwiftUI.EmptyView&gt;&gt;&gt;, SwiftUI.Spacer)&gt;&gt;, SwiftUI.Spacer, SwiftUI.Text, SwiftUI.ScrollView&lt;Swift.Optional&lt;SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Text&gt;&gt;&gt;, SwiftUI.Spacer, SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in RecipeBook.RecipeView.body.getter : some"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gauravpatil/Desktop/iOS/RecipeBook/RecipeBook/View/RecipeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "776">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE7BC78D-9F78-40A9-A62E-4E2C352EAE8D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeBook/ViewModel/RecipeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "fetchRecipeData(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE7BC78D-9F78-40A9-A62E-4E2C352EAE8D - a80b526bed80831c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeBook.RecipeViewModel.fetchRecipeData(for: Swift.String) -&gt; ()"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gauravpatil/Desktop/iOS/RecipeBook/RecipeBook/ViewModel/RecipeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "AE7BC78D-9F78-40A9-A62E-4E2C352EAE8D - 1eb526fd7f953504"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;RecipeBook.Recipe, Swift.Error&gt;) -&gt; () in RecipeBook.RecipeViewModel.fetchRecipeData(for: Swift.String) -&gt; ()"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gauravpatil/Desktop/iOS/RecipeBook/RecipeBook/ViewModel/RecipeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
