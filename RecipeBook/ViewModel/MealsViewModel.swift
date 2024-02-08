@@ -24,6 +24,7 @@ class MealsViewModel: ObservableObject {
             switch result {
             case .success(let dataOf):
                 self.desserts = dataOf.meals
+                self.desserts.sort {$0.strMeal < $1.strMeal}
             case .failure(let error):
                 print("Error processing json data: \(error)")
             }
