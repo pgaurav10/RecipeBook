@@ -13,7 +13,7 @@ struct RecipeView: View {
     
     var body: some View {
         NavigationView {
-            if let safeRecipe = recipeVM.recipes {
+            if let safeRecipe = recipeVM.recipe {
                 VStack {
                     HStack {
                         VStack {

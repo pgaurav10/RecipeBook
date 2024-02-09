@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ApiService {
+struct ApiService {
     
     func fetchMealData(completion: @escaping (Result<Meals,Error>) -> Void ) {
         if let url = URL(string: "https://themealdb.com/api/json/v1/1/filter.php?c=Dessert") {
@@ -15,6 +15,7 @@ class ApiService {
             let task = session.dataTask(with: url) { data, response, error in
                 if let e = error {
                     print(e.localizedDescription)
+                    completion(.failure(e))
                     return
                 }
                 
@@ -39,7 +40,6 @@ class ApiService {
     
     func fetchRecipeData(id: String, completion: @escaping (Result<Recipe,Error>) -> Void) {
         let dessertLink = "https://themealdb.com/api/json/v1/1/lookup.php?i="+id
-        
     
         if let url = URL(string: dessertLink) {
             let session = URLSession(configuration: .default)

@@ -30,6 +30,4 @@ class MealsViewModel: ObservableObject {
             }
         }
     }
-    
-    
 }

@@ -8,7 +8,7 @@
 import Foundation
 
 class RecipeViewModel: ObservableObject {
-    @Published var recipes: RecipeDetail?
+    @Published var recipe: RecipeDetail?
     
     var apiService = ApiService()
     func fetchRecipeData(for id: String){
@@ -16,7 +16,7 @@ class RecipeViewModel: ObservableObject {
         apiService.fetchRecipeData(id: id) { result in
             switch result {
             case .success(let dataOf):
-                self.recipes = dataOf.meals[0]
+                self.recipe = dataOf.meals[0]
             case .failure(let error):
                 print("Error processing json data: \(error)")
             }

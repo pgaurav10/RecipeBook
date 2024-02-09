@@ -32,7 +32,7 @@ struct Dessert: Decodable, Identifiable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         
         idMeal = try values.decodeIfPresent(String.self, forKey: .idMeal) ?? ""
-        strMeal = try values.decodeIfPresent(String.self, forKey: .strMeal) ?? ""
+        strMeal = try values.decodeIfPresent(String.self, forKey: .strMeal) ?? "N/A"
         strMealThumb = try values.decodeIfPresent(String.self, forKey: .strMealThumb) ?? ""
     }
 }

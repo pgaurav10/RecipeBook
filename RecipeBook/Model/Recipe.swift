@@ -51,12 +51,10 @@ struct RecipeDetail: Decodable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         
         idMeal = try values.decodeIfPresent(String.self, forKey: .idMeal) ?? ""
-        str = try values.decodeIfPresent(String.self, forKey: .str) ?? ""
-        instructions = try values.decodeIfPresent(String.self, forKey: .instructions) ?? ""
+        str = try values.decodeIfPresent(String.self, forKey: .str) ?? "N/A"
+        instructions = try values.decodeIfPresent(String.self, forKey: .instructions) ?? "N/A"
         thumb = try values.decodeIfPresent(String.self, forKey: .thumb) ?? ""
-        let link = try values.decodeIfPresent(String.self, forKey: .youtube) ?? ""
-        
-        youtube = link != "" ? link : "N/A"
+        youtube = try values.decodeIfPresent(String.self, forKey: .youtube) ?? "N/A"
 
         // Dynamically decode ingredients and measures
         
