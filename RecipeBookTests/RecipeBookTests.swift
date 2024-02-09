@@ -32,5 +32,36 @@ final class RecipeBookTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testValidJSONData() throws {
+        let jsonData = """
+        {
+          "meals": [
+            {
+              "idMeal": "52772",
+              "strMeal": "Apple Crumble",
+              "strMealThumb": "https://www.themealdb.com/images/swts3wy.jpg"
+            },
+            {
+              "idMeal": "52959",
+              "strMeal": "Beef Wellington",
+              "strMealThumb": "https://www.themealdb.com/images/s1mr6h.jpg"
+            }
+          ]
+        }
+        """.data(using: .utf8)!
+
+        do {
+            let meals = try JSONDecoder().decode(Meals.self, from: jsonData)
+            XCTAssertEqual(meals.meals.count, 2)
+            for meal in meals.meals {
+                XCTAssertNotNil(meal.idMeal)
+                XCTAssertNotNil(meal.strMeal)
+                XCTAssertNotNil(meal.strMealThumb)
+            }
+        } catch {
+            XCTFail("Error decoding JSON: \(error)")
+        }
+    }
 
 }
